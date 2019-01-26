@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name         GitHub Sticky Sidebar
+@version      0.1.0
+@description  Makes the sidebar in issues and pull requests sticky
+@namespace    StylishThemes
+@author       StylishThemes
+@homepageURL  https://github.com/StylishThemes/GitHub-sticky-sidebar
+@supportURL   https://github.com/StylishThemes/GitHub-sticky-sidebar/issues
+@updateURL    https://raw.githubusercontent.com/StylishThemes/GitHub-Sticky-Sidebar/master/github-sticky-sidebar.user.css
+@license      CC-BY-SA-4.0
+@preprocessor uso
+==/UserStyle== */
+@-moz-document domain("github.com") {
+  /* sticky the sidebar */
+  @supports (position: sticky) {
+    .discussion-sidebar {
+      position: sticky !important;
+      top: 0 !important;
+    }
+    .discussion-sidebar-sticky {
+      position: static !important;
+      width: auto !important;
+    }
+    .discussion-sidebar .is-placeholder {
+      display: none !important;
+    }
+  }
+  /* hide github's sticky header */
+  .gh-header-sticky, .gh-header-shadow {
+    display: none !important;
+  }
+}

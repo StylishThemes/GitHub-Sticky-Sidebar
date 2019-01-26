@@ -1,0 +1,19 @@
+{
+  "name": "github-sticky-sidebar",
+  "title": "GitHub Sticky Sidebar",
+  "version": "0.1.0",
+  "description": "Makes the sidebar in issues and pull requests sticky",
+  "repository": "StylishThemes/GitHub-Sticky-Sidebar",
+  "license": "CC-BY-SA-4.0",
+  "main": "github-sticky-sidebar.user.css",
+  "devDependencies": {
+    "updates": "^6.2.1",
+    "ver": "^4.0.0"
+  },
+  "scripts": {
+    "patch": "ver patch *.user.css",
+    "minor": "ver minor *.user.css",
+    "major": "ver major *.user.css",
+    "update": "updates -cu && npm install"
+  }
+}
