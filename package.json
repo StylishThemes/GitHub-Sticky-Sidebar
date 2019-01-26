@@ -1,7 +1,7 @@
 {
   "name": "github-sticky-sidebar",
   "title": "GitHub Sticky Sidebar",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Makes the sidebar in issues and pull requests sticky",
   "repository": "StylishThemes/GitHub-Sticky-Sidebar",
   "license": "CC-BY-SA-4.0",
