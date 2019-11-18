@@ -8,12 +8,12 @@
   "main": "github-sticky-sidebar.user.css",
   "devDependencies": {
     "updates": "^6.2.1",
-    "ver": "^4.0.0"
+    "versions": "7.0.1"
   },
   "scripts": {
-    "patch": "ver patch *.user.css",
-    "minor": "ver minor *.user.css",
-    "major": "ver major *.user.css",
+    "patch": "versions -C patch *.user.css",
+    "minor": "versions -C minor *.user.css",
+    "major": "versions -C major *.user.css",
     "update": "updates -cu && npm install"
   }
 }
