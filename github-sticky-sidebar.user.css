@@ -29,4 +29,8 @@
   .gh-header-sticky, .gh-header-shadow {
     display: none !important;
   }
+  /* hide sticky notifications header */
+  .notification-sticky {
+    display: none !important;
+  }
 }
