@@ -12,18 +12,12 @@
 ==/UserStyle== */
 @-moz-document domain("github.com") {
   /* sticky the sidebar */
-  @supports (position: sticky) {
-    .discussion-sidebar {
-      position: sticky !important;
-      top: 0 !important;
-    }
-    .discussion-sidebar-sticky {
-      position: static !important;
-      width: auto !important;
-    }
-    .discussion-sidebar .is-placeholder {
-      display: none !important;
-    }
+  #partial-discussion-sidebar {
+    position: sticky !important;
+    top: 0 !important;
+  }
+  #partial-discussion-sidebar .is-placeholder {
+    display: none !important;
   }
   /* hide github's sticky header */
   .gh-header-sticky, .gh-header-shadow {
