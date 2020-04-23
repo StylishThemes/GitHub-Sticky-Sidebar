@@ -7,8 +7,8 @@
   "license": "CC-BY-SA-4.0",
   "main": "github-sticky-sidebar.user.css",
   "devDependencies": {
-    "updates": "^9.3.3",
-    "versions": "7.0.5"
+    "updates": "^10.2.10",
+    "versions": "8.2.7"
   },
   "scripts": {
     "patch": "versions -C patch *.user.css",
