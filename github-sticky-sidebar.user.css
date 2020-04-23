@@ -24,7 +24,7 @@
     display: none !important;
   }
   /* hide sticky notifications header */
-  .notification-sticky {
+  .notification-sticky, .js-notification-top-shelf {
     display: none !important;
   }
 }
