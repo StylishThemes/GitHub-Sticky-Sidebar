@@ -1,3 +1,5 @@
+**Retired:** this style no longer matches GitHub's current markup.
+
 # GitHub-Sticky-Sidebar [![tag](https://img.shields.io/github/tag/StylishThemes/GitHub-Sticky-Sidebar.svg)](https://github.com/StylishThemes/GitHub-Sticky-Sidebar/tags)
 
 Makes the sidebar in issues and pull requests sticky. Also removes the default sticky header to save some screen estate.
